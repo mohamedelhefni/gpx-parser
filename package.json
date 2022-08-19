@@ -1,10 +1,11 @@
 {
-  "name": "gpxparser",
+  "name": "gpx2js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist"
   },
   "keywords": [
     "gpx",
@@ -17,5 +18,10 @@
   "license": "ISC",
   "dependencies": {
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
   }
 }
