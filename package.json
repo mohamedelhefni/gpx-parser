@@ -1,6 +1,6 @@
 {
-  "name": "gpx2js",
-  "version": "1.0.0",
+  "name": "gpxtojs",
+  "version": "1.0.3",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,7 +13,6 @@
     "gps",
     "geojson"
   ],
-  "type": "module",
   "author": "Mohamed Elhefni",
   "license": "ISC",
   "dependencies": {
