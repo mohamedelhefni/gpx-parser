@@ -1,6 +1,6 @@
 {
   "name": "gpxtojs",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
@@ -13,6 +13,10 @@
     "gps",
     "geojson"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohamedelhefni/gpx-parser.git"
+  },
   "author": "Mohamed Elhefni",
   "license": "ISC",
   "dependencies": {
