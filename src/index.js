@@ -153,7 +153,7 @@ class GPXParser {
     return arr
   }
   getMetadata() {
-    return this.#removeUndefined(this.#metadata)
+    return this.#metadata
   }
 
   getWaypoints() {

@@ -13,9 +13,10 @@ a library for parsing gpx files and extract data that provide functionalities
 const gpxtojs = require("gpxtojs")
 const gpx = new gpxtojs.GPXParser();
 gpx.parse(gpxString)
+gpx.getMetadata()
 gpx.getWaypoints()
 gpx.getTracks()
-gpx.getRoute()
+gpx.getRoutes()
 ```
 
 ### Convert to Geojson
